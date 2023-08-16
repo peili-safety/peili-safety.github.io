@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,8 +8,19 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am a [scientist](https://directory.engr.wisc.edu/cee/Staff/Li_Pei/) at the University of Wisconsin-Madison. My current research focuses on **traffic safety, deep learning, big data, connected vehicles, and traffic simulation**. My CV is available from [here](https://peili-sandman.github.io/files/cv_pei.pdf).
 
-A data-driven personal website
-======
-TEST
+
+<!---
+I received my PhD degree in Transportation Engineering under the supervision of [Dr. Mohamed Abdel-Aty](https://www.cece.ucf.edu/aty/). I received my master degree in communication and transportation engineering and bachelor degree in logistics engineering from Tongji University in 2015 and 2018, respectively.
+'''
+--->
+
+
+News
+===
+- 8/2023: One [paper](https://doi.org/10.1109/TITS.2023.3296567) has been published in IEEE Transactions on Intelligent Transporation Systems.
+- 10/2022: I will present one paper at TRB 2023, looking forward to meeting new and old friends!
+- 9/2022: I joined the University of Wisconsin-Madison as a research scientist.
+- 6/2022: One [paper](https://doi.org/10.1177/03611981221094289) has been published in the Transportation Research Record: Journal of the Transportation Research.
+- 4/2022: One [paper](https://ascelibrary.org/doi/full/10.1061/JTEPBS.0000697) has been published in the Journal of Transportation Engineering, Part A: Systems.
