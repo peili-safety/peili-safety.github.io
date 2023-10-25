@@ -23,7 +23,3 @@ News
 - 10/2023: One [paper](https://doi.org/10.1109/TIV.2023.3326735) is published in IEEE Transactions on Intelligent Vehicles.
 - 9/2023: One [paper](https://doi.org/10.1016/j.trc.2023.104358) is published in Transportation Research Part C: Emerging Technologies.
 - 8/2023: One [paper](https://doi.org/10.1109/TITS.2023.3296567) is published in IEEE Transactions on Intelligent Transporation Systems.
-<!-- - 10/2022: I will present one paper at TRB 2023, looking forward to meeting new and old friends!
-- 9/2022: I joined the University of Wisconsin-Madison as a research scientist.
-- 6/2022: One [paper](https://doi.org/10.1177/03611981221094289) has been published in the Transportation Research Record: Journal of the Transportation Research.
-- 4/2022: One [paper](https://ascelibrary.org/doi/full/10.1061/JTEPBS.0000697) has been published in the Journal of Transportation Engineering, Part A: Systems. -->
