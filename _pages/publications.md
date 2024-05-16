@@ -17,6 +17,10 @@ author_profile: true
 
 Journal Papers
 ======
+* **Li, P.**, Chen, S., Yue, L., Xu, Y. and Noyce, D.A., 2024. ["Analyzing relationships between latent topics in autonomous vehicle crash narratives and crash severity using natural language processing techniques and explainable XGBoost"](https://doi.org/10.1016/j.aap.2024.107605). Accident Analysis & Prevention, 203, p.107605.
+* Liu, C., Sheng, Z., **Li, P.**, Chen, S., Luo, X. and Ran, B., 2024. ["A distributed deep reinforcement learning-based longitudinal control strategy for connected automated vehicles combining attention mechanism"](https://doi.org/10.1080/19427867.2024.2335084). Transportation Letters, pp.1-17.
+* **Li, P.**, Wu, K., Cheng, Y., Parker, S. and Noyce, D.A., 2023. ["How Does C-V2X Perform in Urban Environments? Results From Real-World Experiments on Urban Arterials"]([10.1109/TITS.2023.3296567](https://doi.org/10.1109/TIV.2023.3326735)). IEEE Transactions on Intelligent Vehicles.
+* Dong, J., Chen, S., Miralinaghi, M., Chen, T., **Li, P.** and Labi, S., 2023. ["Why did the AI make that decision? Towards an explainable artificial intelligence (XAI) for autonomous driving systems"](https://doi.org/10.1016/j.trc.2023.104358). Transportation research part C: emerging technologies, 156, p.104358.
 * **Li, P.**, Guo, H., Bao, S. and Kusari, A., 2023. ["A Probabilistic Framework for Estimating the Risk of Pedestrian-Vehicle Conflicts at Intersections"](10.1109/TITS.2023.3296567). IEEE Transactions on Intelligent Transportation Systems.
 * Abdel-Aty, M., Zheng, O., Wu, Y., Abdelraouf, A., Rim, H. and **Li, P.**, 2023. ["Real-Time Big Data Analytics and Proactive Traffic Safety Management Visualization System"](https://doi.org/10.1061/JTEPBS.TEENG-7530). Journal of Transportation Engineering, Part A: Systems, 149(8), p.04023064.
 * **Li, P.**, Abdel-Aty. M, 2022. ["A Hybrid Machine Learning Model for Predicting Real-time Secondary Crash Likelihood"](https://doi.org/10.1016/j.aap.2021.106504). Accident Analysis and Prevention, 165.
@@ -54,11 +58,3 @@ Conference Papers
 * **Li, P.**, Abdel-Aty. M., Cai, Q., and Islam, Z., 2020, Jan. "Real-time Vehicle Maneuvers Detection Based on Smartphone Sensors and Deep Learning". In 99th Annual Meeting of the Transportation Research Board, Washington D.C., USA.
 
 * Zhang, R. and **Li, P.**, 2016, Jan. ["Calculation of External costs of Road and Railway Freight Transportation and Internalization"](https://www.researchgate.net/profile/Pei_Li28/publication/308064025_Calculation_of_External_costs_of_Road_and_Railway_Freight_Transportation_and_Internalization/links/57d8aa9108ae5f03b498611d/Calculation-of-External-costs-of-Road-and-Railway-Freight-Transportation-and-Internalization.pdf). In 95th Annual Meeting of the Transportation Research Board, Washington D.C., USA.
-
-Under Review Papers
-======
-* **Li, P.**, Wu, K., Cheng, Y., Parker, S. and Noyce, D. "How Does C-V2X Perform in Urban Environments? Results From Real-world Empirical Experiments on Urban Arterials". Under review in IEEE-Intelligent Vehicles. 
-* **Li, P.**, Parker, S. and Noyce, D. "Analyzing Relationships between Latent Topics in Autonomous Vehicle Crash Narratives and Crash Severity Using Natural Language Processing Techniques and XGBoost". Under review in TRR.
-* **Li, P.**, Chen, S., Yue, L. and Noyce, D. "Analyzing Relationships between Latent Topics in Autonomous Vehicle Crash Narratives and Crash Severity Using Natural Language Processing Techniques and XGBoost". Under review in AAP.
-* Dong, J., Chen, S., Miralinaghi, M., Chen, T., **Li, P.** and Labi, S. "Why did the AI make that decision? Towards an explainable artificial intelligence (XAI) for autonomous driving systems". Under review in TR-C.
-* Yin, H., Yue, L., **Li, P.**., Sun, J. and Huang, Y. "Personalized Lane Departure Warning Based on Non-Stationary Crossformer and Kernel Density Estimation". Under review in IEEE-Intelligent Vehicles
