@@ -20,7 +20,8 @@ I received my PhD degree in Transportation Engineering under the supervision of 
 News
 ===
 - 10/2024: I gave a talk about user trust in automated vehicles at the [30<sup>th</sup> Annual ITS Wiscosin Transportation Conference](https://itswisconsin.org/2024-its-conference/).
-- 10/2023: Six papers are accpected in TRB 2024.
+- 10/2024: Six papers were accepted in TRB 2025.
+- 10/2023: Six papers were accpected in TRB 2024.
 - 10/2023: One [paper](https://doi.org/10.1109/TIV.2023.3326735) is published in IEEE Transactions on Intelligent Vehicles.
 - 9/2023: One [paper](https://doi.org/10.1016/j.trc.2023.104358) is published in Transportation Research Part C: Emerging Technologies.
 - 8/2023: One [paper](https://doi.org/10.1109/TITS.2023.3296567) is published in IEEE Transactions on Intelligent Transporation Systems.
