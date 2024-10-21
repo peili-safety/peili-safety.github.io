@@ -17,10 +17,10 @@ author_profile: true
 
 Preprints 
 ======
-* Tamaru, R., **Li, P.**, \& Ran, B. (2024). [Enhancing Pedestrian Trajectory Prediction with Crowd Trip Information](https://arxiv.org/abs/2409.15224).
+* Tamaru, R., **Li, P.**, & Ran, B. (2024). [Enhancing Pedestrian Trajectory Prediction with Crowd Trip Information](https://arxiv.org/abs/2409.15224).
 * Gan, R., Shi, H., **Li, P.**, Wu, K., An, B., Li, L., ... & Ran, B. (2024). [Goal-based Neural Physics Vehicle Trajectory Prediction Model.](https://arxiv.org/abs/2409.15182)
-* Wan, H., **Li, P.**, \& Kusari, A. (2024). [Demystifying deep reinforcement learning-based autonomous vehicle decision-making](https://arxiv.org/abs/2403.11432).
-* Wu, K., **Li, P.**, Cheng, Y., Parker, S. T., Ran, B., Noyce, D. A., \& Ye, X. (2024). [A Digital Twin Framework for Physical-Virtual Integration in V2X-Enabled Connected Vehicle Corridors](https://arxiv.org/abs/2410.00356).
+* Wan, H., **Li, P.**, & Kusari, A. (2024). [Demystifying deep reinforcement learning-based autonomous vehicle decision-making](https://arxiv.org/abs/2403.11432).
+* Wu, K., **Li, P.**, Cheng, Y., Parker, S. T., Ran, B., Noyce, D. A., & Ye, X. (2024). [A Digital Twin Framework for Physical-Virtual Integration in V2X-Enabled Connected Vehicle Corridors](https://arxiv.org/abs/2410.00356).
 * You, J., **Li, P.**, Cheng, Y., Wu, K., Gan, R., Parker, S. T., & Ran, B. (2024). [Real-World Data Inspired Interactive Connected Traffic Scenario Generation](https://arxiv.org/abs/2409.17429).
 * Ma, C., Li, H., Long, K., Zhou, H., Liang, Z., **Li, P.**, Yu, H., Li, X. (2024). [Real-Time Identification of Cooperative Perception Necessity in Road Traffic Scenarios](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4973353). 
 

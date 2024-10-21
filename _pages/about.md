@@ -8,7 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a [scientist](https://directory.engr.wisc.edu/cee/Staff/Li_Pei/) at the University of Wisconsin-Madison. My current research focuses on **traffic safety, deep learning, big data, connected vehicles, and traffic simulation**. My CV is available from [here](https://peili-sandman.github.io/files/cv_pei.pdf).
+I am a [Scientist](https://directory.engr.wisc.edu/cee/Staff/Li_Pei/) at the University of Wisconsin-Madison. My research aims to advance **smart mobility** through **digitalization**, focusing on continuous sensing, predictive analysis, and seamless communication. My research interests focus on smart mobility, digital twins, AI, data science, and human factors. 
+
+I have developed comprehensive methods to understand and predict traffic status and road user behavior by integrating AI, machine learning, and statistical methods with fundamental transportation theories. Moreover, by leveraging digital twins and vehicle-to-everything communication, my work bridges digital and physical transportation systems, laying the groundwork for future mobility.
+
+<!-- My CV is available from [here](https://peili-sandman.github.io/files/cv_pei.pdf). -->
 
 
 <!---
@@ -21,7 +25,7 @@ News
 ===
 - 10/2024: I gave a talk about user trust in automated vehicles at the [30<sup>th</sup> Annual ITS Wiscosin Transportation Conference](https://itswisconsin.org/2024-its-conference/).
 - 10/2024: Six papers were accepted in TRB 2025.
-- 10/2023: Six papers were accpected in TRB 2024.
-- 10/2023: One [paper](https://doi.org/10.1109/TIV.2023.3326735) is published in IEEE Transactions on Intelligent Vehicles.
-- 9/2023: One [paper](https://doi.org/10.1016/j.trc.2023.104358) is published in Transportation Research Part C: Emerging Technologies.
-- 8/2023: One [paper](https://doi.org/10.1109/TITS.2023.3296567) is published in IEEE Transactions on Intelligent Transporation Systems.
+- 10/2024: One [paper](https://doi.org/10.1016/j.aej.2024.09.092) is published in Alexandria Engineering Journal.
+- 6/2024: I presented my [research](https://doi.org/10.1061/9780784485514.049) on automated vehicle behavior at the International Conference on Transportation and Development 2024.
+- 5/2024 One [paper](https://doi.org/10.1016/j.aap.2024.107605) was published in Accident Analysis & Prevention.
+- 3/2024 One [paper](https://doi.org/10.1080/19427867.2024.2335084) was published in Transportation Letters.
