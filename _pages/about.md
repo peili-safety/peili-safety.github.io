@@ -10,7 +10,7 @@ redirect_from:
 
 I am a [Scientist](https://directory.engr.wisc.edu/cee/Staff/Li_Pei/) at the University of Wisconsin-Madison. My research aims to advance **smart mobility** through **digitalization**, focusing on continuous sensing, predictive analysis, and seamless communication. I am interested in understanding how cutting-edge technologies, including digital twins, AI, and vehicle-to-everything, impact transportation, as well as how to leverage them to address existing and emerging challenges in transporation safety and mobility.
 
-I have developed comprehensive methods to understand and predict traffic status and road user behavior by integrating AI, machine learning, and statistical methods with fundamental transportation theories. Moreover, by leveraging digital twins and vehicle-to-everything communication, my work bridges digital and physical transportation systems, laying the groundwork for future mobility.
+I develop theoretical models to understand and predict traffic status and road user behavior by integrating AI, machine learning, and statistical methods with fundamental transportation safety and behavior modeling methods. Moreover, by leveraging digital twins and vehicle-to-everything technoligies, my work bridges digital and physical transportation systems, laying the groundwork for future mobility.
 
 <!-- My CV is available from [here](https://peili-sandman.github.io/files/cv_pei.pdf). -->
 
