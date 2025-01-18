@@ -29,3 +29,5 @@ News
 - 6/2024: I presented my [research](https://doi.org/10.1061/9780784485514.049) on automated vehicle behavior at the International Conference on Transportation and Development 2024.
 - 5/2024 One [paper](https://doi.org/10.1016/j.aap.2024.107605) was published in Accident Analysis & Prevention.
 - 3/2024 One [paper](https://doi.org/10.1080/19427867.2024.2335084) was published in Transportation Letters.
+
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=K6BZH5UjZhUNb3GovbJmBXk2OEmeuOHBxo9_4xHdTAQ&cl=ffffff&w=a"></script>
