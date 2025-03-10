@@ -4,19 +4,12 @@ title: "Research"
 permalink: /portfolio/
 author_profile: true
 ---
-<!-- 
-
-
-<ol>
-  <li>Crash Predictions for Expedited Detection</li>
-  <li>Connecting the East Orlando Communities Project-Phase I</li>
-  <li>Using Smartphone as On-board unit (OBU) Emulator Implementation Study</li>
-  <li>Pre-Deployment Study for Connecting the East Orlando Communities Project</li> 
-</ol> -->
 
 {% include base_path %}
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<div class="portfolio-wrapper">
+  {% for post in site.portfolio %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div>
 

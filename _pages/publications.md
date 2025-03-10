@@ -9,14 +9,10 @@ author_profile: true
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-<!-- {% include base_path %}
-
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %} -->
 
 Preprints 
 ======
+* Wu, K.,  **Li, P.**, Zhou, Y., Gan, R., You, J., Cheng, Y., ... & Tu, Z. (2025). V2X-LLM: [Enhancing V2X Integration and Understanding in Connected Vehicle Corridors](https://arxiv.org/pdf/2503.02239).
 * Tamaru, R., **Li, P.**, & Ran, B. (2024). [Enhancing Pedestrian Trajectory Prediction with Crowd Trip Information](https://arxiv.org/abs/2409.15224).
 * Gan, R., Shi, H., **Li, P.**, Wu, K., An, B., Li, L., ... & Ran, B. (2024). [Goal-based Neural Physics Vehicle Trajectory Prediction Model.](https://arxiv.org/abs/2409.15182)
 * Wan, H., **Li, P.**, & Kusari, A. (2024). [Demystifying deep reinforcement learning-based autonomous vehicle decision-making](https://arxiv.org/abs/2403.11432).
