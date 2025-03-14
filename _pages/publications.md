@@ -12,7 +12,7 @@ author_profile: true
 
 Preprints 
 ======
-* Wu, K.,  **Li, P.**, Zhou, Y., Gan, R., You, J., Cheng, Y., ... & Tu, Z. (2025). V2X-LLM: [Enhancing V2X Integration and Understanding in Connected Vehicle Corridors](https://arxiv.org/pdf/2503.02239).
+* Wu, K.,  **Li, P.**, Zhou, Y., Gan, R., You, J., Cheng, Y., ... & Tu, Z. (2025). [V2X-LLM: Enhancing V2X Integration and Understanding in Connected Vehicle Corridors](https://arxiv.org/pdf/2503.02239).
 * Tamaru, R., **Li, P.**, & Ran, B. (2024). [Enhancing Pedestrian Trajectory Prediction with Crowd Trip Information](https://arxiv.org/abs/2409.15224).
 * Gan, R., Shi, H., **Li, P.**, Wu, K., An, B., Li, L., ... & Ran, B. (2024). [Goal-based Neural Physics Vehicle Trajectory Prediction Model.](https://arxiv.org/abs/2409.15182)
 * Wan, H., **Li, P.**, & Kusari, A. (2024). [Demystifying deep reinforcement learning-based autonomous vehicle decision-making](https://arxiv.org/abs/2403.11432).
@@ -22,7 +22,7 @@ Preprints
 
 Journal Papers
 ======
-* Yin, H., Yue, L., Gong, Y., **Li, P.**, & Huang, Y. (2024). [Personalized lane departure warning based on non-stationary crossformer and kernel density estimation](https://doi.org/10.1016/j.aej.2024.09.092). Alexandria Engineering Journal, 109, 856-870.
+* Yin, H., Yue, L., Gong, Y., **Li, P.**, & Huang, Y., 2024. [Personalized lane departure warning based on non-stationary crossformer and kernel density estimation](https://doi.org/10.1016/j.aej.2024.09.092). Alexandria Engineering Journal, 109, 856-870.
 * **Li, P.**, Chen, S., Yue, L., Xu, Y. and Noyce, D.A., 2024. ["Analyzing relationships between latent topics in autonomous vehicle crash narratives and crash severity using natural language processing techniques and explainable XGBoost"](https://doi.org/10.1016/j.aap.2024.107605). Accident Analysis & Prevention, 203, p.107605.
 * Liu, C., Sheng, Z., **Li, P.**, Chen, S., Luo, X. and Ran, B., 2024. ["A distributed deep reinforcement learning-based longitudinal control strategy for connected automated vehicles combining attention mechanism"](https://doi.org/10.1080/19427867.2024.2335084). Transportation Letters, pp.1-17.
 * **Li, P.**, Wu, K., Cheng, Y., Parker, S. and Noyce, D.A., 2023. ["How Does C-V2X Perform in Urban Environments? Results From Real-World Experiments on Urban Arterials"]([10.1109/TITS.2023.3296567](https://doi.org/10.1109/TIV.2023.3326735)). IEEE Transactions on Intelligent Vehicles.
