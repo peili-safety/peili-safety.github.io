@@ -5,12 +5,12 @@ main:
     
   - title: "Research"
     url: /portfolio/
-        
+
+  - title: "Lab"
+    url: /lab/
+
   - title: "Blog Posts"
     url: /year-archive/
     
-  - title: "Education"
-    url: /cv/
-
-  - title: "Professional Services"
+  - title: "Services"
     url: /services/

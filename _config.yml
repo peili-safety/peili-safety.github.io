@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Pei Li"
 title_separator          : "-"
 name                     : &name "Pei Li"
-description              : &description "Pei Li is a PhD student from University of Central Florida"
+description              : &description "Pei Li is an Assistant Professor at the University of Wyoming. His research focuses on advancing safety and mobility through digital, intelligent transportation systems."
 url                      : https://peili-safety.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
@@ -82,8 +82,8 @@ analytics:
 author:
   name             : "Pei Li"
   avatar           : "pei.jpg"
-  bio              : "Scientist at the University of Wisconsin-Madison"
-  location         : "Madison, WI"
+  bio              : "Incoming Assistant Professor at the University of Wyoming."
+  location         : "Laramie, WY"
   employer         :
   googlescholar    : "https://scholar.google.com/citations?user=0QzhzL0AAAAJ&hl=en"
   email            :
