@@ -7,9 +7,129 @@ author_profile: true
 
 {% include base_path %}
 
-<div class="portfolio-wrapper">
-  {% for post in site.portfolio %}
-    {% include archive-single.html %}
+<!-- Cover Section Start -->
+<style>
+  .cover-figure-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  .cover-figure-img {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 20px;
+    box-shadow: 0 10px 32px rgba(0,0,0,0.15);
+    flex-shrink: 0;
+  }
+  .cover-figure-desc {
+    max-width: 500px;
+    min-width: 250px;
+    color: #222;
+  }
+  @media (max-width: 900px) {
+    .cover-figure-row {
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+    }
+    .cover-figure-desc {
+      max-width: 100%;
+      min-width: 0;
+    }
+  }
+  .research-areas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 32px;
+    margin-top: 40px;
+    position: relative;
+    z-index: 10;
+  }
+  .research-card {
+    background: linear-gradient(135deg, rgba(0, 212, 255, 0.10) 0%, rgba(0, 102, 255, 0.10) 100%);
+    border: 1px solid rgba(0, 212, 255, 0.30);
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    padding: 28px 24px 20px 24px;
+    transition: box-shadow 0.2s, border-color 0.2s, transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-height: 320px;
+  }
+  .research-card:hover {
+    box-shadow: 0 8px 32px rgba(0, 212, 255, 0.15);
+    border-color: #00d4ff;
+    transform: translateY(-4px) scale(1.01);
+  }
+  .research-icon {
+    font-size: 2.2rem;
+    margin-bottom: 12px;
+    color: #00bfff;
+    text-shadow: 0 0 12px rgba(0, 212, 255, 0.18);
+  }
+  .research-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #0077cc;
+    margin-bottom: 10px;
+  }
+  .research-title a {
+    color: #0077cc;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .research-title a:hover {
+    color: #005577;
+    text-decoration: underline;
+  }
+  .research-desc {
+    font-size: 1rem;
+    color: #225;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+  .research-card img {
+    width: 220px;
+    height: 110px;
+    object-fit: cover;
+    display: block;
+    margin-top: 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+</style>
+<div class="cover-figure-row">
+  <img src="/images/diagram.png" alt="Research Summary" class="cover-figure-img" />
+  <div class="cover-figure-desc">
+    <h2>Toward Safer, Smarter, and More Connected Transportation</h2>
+    <p>
+      I develop models and applications that monitor, predict, and optimize traffic. My research bridges digital and physical transportation layers through AI, data-driven models, digital twins, and V2X technologies. By integrating sensing, prediction, and communication, I enable traffic systems to proactively predict risks, optimize decision-making, and enhance safety and mobility.
+    </p>
+  </div>
+</div>
+    <div class="research-areas">
+  {% assign research_icons = "🛡️,🔄,🔗,👤" | split: "," %}
+  {% for post in site.portfolio limit:4 %}
+    <div class="research-card">
+      <!-- <div class="research-icon">{{ research_icons[forloop.index0] }}</div> -->
+      <div class="research-title">
+        <a href="{{ post.url | relative_url }}">{{ post.title | replace: "_", " " }}</a>
+      </div>
+      <div class="research-desc">{{ post.excerpt | markdownify }}</div>
+    </div>
   {% endfor %}
 </div>
+
+<!-- Cover Section End -->
+
+<!-- <div class="portfolio-wrapper"> -->
+  <!-- {% for post in site.portfolio %}
+    {% include archive-single.html %}
+  {% endfor %}
+</div> -->
 
