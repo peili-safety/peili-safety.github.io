@@ -8,10 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming Assistant Professor at the University of Wyoming. My research aims to advance **safety** and **mobility** through the development of digital, intelligent transportation systems. I develop models and applications that can sense traffic, predict future conditions, and make decisions. My research bridges the gap between transportation engineering and cutting-edge technologies, including digital twins, AI, and V2X.
-
-
-
+I am an Assistant Professor at the University of Wyoming. My research aims to advance **safety** and **mobility** through the development of digital, intelligent transportation systems. I develop models and applications that can sense traffic, predict future conditions, and make decisions. My research bridges the gap between transportation engineering and cutting-edge technologies, including digital twins, AI, and V2X.
 
 News
 ===
