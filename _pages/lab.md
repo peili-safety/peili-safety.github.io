@@ -33,11 +33,11 @@ We are dedicated to advancing the field of intelligent transportation systems an
 
 ## Available Positions
 
-We are currently recruiting new members! For detailed job descriptions and application instructions, please refer to the PDF below:
+We are always looking for motivated students. The lab has multiple openings at both the MS and PhD levels. Detailed requirements can be found [here](/files/position_post.pdf). Please reach out to Dr. Pei Li if you are interested.
 
-<iframe src="/files/position_post.pdf" width="100%" height="600px" style="border: none;">
+<!-- <iframe src="/files/position_post.pdf" width="100%" height="600px" style="border: none;">
   This browser does not support PDFs. Please download the PDF to view it: <a href="/files/position_post.pdf">Download Job Description (PDF)</a>
-</iframe>
+</iframe> -->
 
-If you have any questions, feel free to contact the Lab Director.
+
 

@@ -1,0 +1,18 @@
+current directory: /Users/peili/Documents/peili-safety.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/opt/homebrew/opt/ruby@3.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/peili/Documents/peili-safety.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make -j19 DESTDIR\= sitearchdir\=./.gem.20260511-41732-fyh04u sitelibdir\=./.gem.20260511-41732-fyh04u clean
+
+current directory: /Users/peili/Documents/peili-safety.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make -j19 DESTDIR\= sitearchdir\=./.gem.20260511-41732-fyh04u sitelibdir\=./.gem.20260511-41732-fyh04u
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/peili/Documents/peili-safety.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make -j19 DESTDIR\= sitearchdir\=./.gem.20260511-41732-fyh04u sitelibdir\=./.gem.20260511-41732-fyh04u install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20260511-41732-fyh04u/racc
+
+current directory: /Users/peili/Documents/peili-safety.github.io/vendor/bundle/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20260511-41732-fyh04u sitelibdir\=./.gem.20260511-41732-fyh04u clean

@@ -1,0 +1,23 @@
+current directory: /Users/peili/Documents/peili-safety.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+/opt/homebrew/opt/ruby@3.3/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/peili/Documents/peili-safety.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make -j19 DESTDIR\= sitearchdir\=./.gem.20260511-41732-mutqgc sitelibdir\=./.gem.20260511-41732-mutqgc clean
+
+current directory: /Users/peili/Documents/peili-safety.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make -j19 DESTDIR\= sitearchdir\=./.gem.20260511-41732-mutqgc sitelibdir\=./.gem.20260511-41732-mutqgc
+compiling ruby_http_parser.c
+compiling ryah_http_parser.c
+ruby_http_parser.c:373:17: warning: comparison of integers of different signs: 'size_t' (aka 'unsigned long') and 'long' [-Wsign-compare]
+  373 |     if (nparsed < len)
+      |         ~~~~~~~ ^ ~~~
+1 warning generated.
+linking shared-object ruby_http_parser.bundle
+
+current directory: /Users/peili/Documents/peili-safety.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make -j19 DESTDIR\= sitearchdir\=./.gem.20260511-41732-mutqgc sitelibdir\=./.gem.20260511-41732-mutqgc install
+/usr/bin/install -c -m 0755 ruby_http_parser.bundle ./.gem.20260511-41732-mutqgc
+
+current directory: /Users/peili/Documents/peili-safety.github.io/vendor/bundle/ruby/3.3.0/gems/http_parser.rb-0.8.1/ext/ruby_http_parser
+make DESTDIR\= sitearchdir\=./.gem.20260511-41732-mutqgc sitelibdir\=./.gem.20260511-41732-mutqgc clean
