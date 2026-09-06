@@ -58,16 +58,16 @@ We gratefully acknowledge the programs supporting our research and professional 
 
 <div class="sponsor-logos" aria-label="Research sponsors">
   <a href="https://wyomingspacegrant.org/nasaepscor/">
-    <img class="sponsor-logos__nasa" src="/images/sponsors/wyoming-nasa-epscor.png" alt="Wyoming NASA EPSCoR">
+    <img class="sponsor-logos__nasa" width="180" src="/images/sponsors/wyoming-nasa-epscor.png" alt="Wyoming NASA EPSCoR">
   </a>
   <a href="https://www.uwyo.edu/soc/">
-    <img class="sponsor-logos__computing" src="/images/sponsors/uwyo-school-of-computing.png" alt="University of Wyoming School of Computing">
+    <img class="sponsor-logos__computing" width="200" src="/images/sponsors/uwyo-school-of-computing.png" alt="University of Wyoming School of Computing">
   </a>
   <a href="https://www.uwyo.edu/ceps/">
-    <img class="sponsor-logos__ceps" src="/images/sponsors/uwyo-ceps.png" alt="University of Wyoming College of Engineering and Physical Sciences">
+    <img class="sponsor-logos__ceps" width="120" src="/images/sponsors/uwyo-ceps.png" alt="University of Wyoming College of Engineering and Physical Sciences">
   </a>
   <a href="https://wisconsindot.gov/">
-    <img class="sponsor-logos__wisdot" src="/images/sponsors/wisdot.png" alt="Wisconsin Department of Transportation (WisDOT)">
+    <img class="sponsor-logos__wisdot" width="80" src="/images/sponsors/wisdot.png" alt="Wisconsin Department of Transportation (WisDOT)">
   </a>
 </div>
 

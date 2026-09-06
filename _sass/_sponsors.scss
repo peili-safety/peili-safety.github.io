@@ -1,16 +1,16 @@
 .sponsor-logos {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px 40px;
-  max-width: 620px;
-  margin: 28px 0 36px;
+  gap: 16px 32px;
+  max-width: 480px;
+  margin: 20px 0 28px;
 
   a {
     display: flex;
     align-items: center;
     justify-content: center;
     min-width: 0;
-    height: 120px;
+    height: 90px;
     border: 0;
     text-decoration: none;
     box-shadow: none;
@@ -25,16 +25,14 @@
     border-radius: 0;
   }
 
-  .sponsor-logos__nasa { width: 230px; }
-  .sponsor-logos__computing { width: 260px; }
-  .sponsor-logos__ceps { width: 160px; }
-  .sponsor-logos__wisdot { width: 100px; }
+  .sponsor-logos__nasa { width: 180px; }
+  .sponsor-logos__computing { width: 200px; }
+  .sponsor-logos__ceps { width: 120px; }
+  .sponsor-logos__wisdot { width: 80px; }
 
   @media (max-width: 480px) {
     gap: 16px 24px;
 
-    a { height: 100px; }
-    .sponsor-logos__ceps { width: 130px; }
-    .sponsor-logos__wisdot { width: 88px; }
+    a { height: 90px; }
   }
 }
