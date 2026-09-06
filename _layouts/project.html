@@ -1,0 +1,23 @@
+---
+layout: default
+---
+{% assign project = site.data.research.projects | where: 'id', page.project_id | first %}
+<article class="project-detail">
+  <header class="mb-5">
+    <h1 class="title">{{ page.title }}</h1>
+    <p class="smallhead mt-3">{{ project.period }} · {{ project.status }}</p>
+    <p class="smallhead section-intro mt-3">{{ project.description }}</p>
+  </header>
+  <div class="row">
+    <aside class="col-lg-3 order-2 order-lg-1 mb-4" aria-label="Project resources">
+      <h2 class="smallhead">Sponsor</h2>
+      <p class="note mt-3"><a href="{{ project.sponsor_url }}">{{ project.sponsor }}</a></p>
+      {% if project.sponsor_logo %}<a class="sponsor-logo mb-4" href="{{ project.sponsor_url }}"><img src="{{ project.sponsor_logo | relative_url }}" alt="{{ project.sponsor_logo_alt | escape }}" width="{{ project.sponsor_logo_width }}"></a>{% endif %}
+      {% if project.report %}<h2 class="smallhead mt-4">Final report</h2><p class="note mt-3"><a href="{{ project.report }}"><i class="fa-regular fa-file-pdf fa-fw" aria-hidden="true"></i> Read the report (PDF)</a></p>{% endif %}
+      <p class="note mt-4"><a href="{{ '/portfolio/#research-projects' | relative_url }}">← All projects and support</a></p>
+    </aside>
+    <div class="col-lg-8 offset-lg-1 post order-1 order-lg-2">
+      {{ content }}
+    </div>
+  </div>
+</article>

@@ -1,31 +1,42 @@
----
-layout: compress
----
-
-{% include base_path %}
-
-<!doctype html>
-<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
-  <head>
-    {% include head.html %}
-    {% include head/custom.html %}
-  </head>
-
-  <body>
-
-    {% include browser-upgrade.html %}
-    {% include masthead.html %}
-
-    {{ content }}
-
-    <div class="page__footer">
-      <footer>
-        {% include footer/custom.html %}
-        {% include footer.html %}
-      </footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.url == '/' %}Pei Li research group{% elsif page.title == site.author.name %}{{ page.title | escape }}{% else %}{{ page.title | default: site.title | escape }} · Pei Li{% endif %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}">
+  <link rel="canonical" href="{{ page.url | absolute_url }}">
+  <link rel="alternate" type="application/atom+xml" title="Pei Li research group" href="{{ '/feed.xml' | relative_url }}">
+  <link rel="preload" href="{{ '/css/fonts/lato/lato-latin-400-normal.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/css/style.css' | relative_url }}">
+  <script defer src="{{ '/js/bootstrap.bundle.min.js' | relative_url }}"></script>
+</head>
+<body>
+  <a class="visually-hidden-focusable" href="#main">Skip to content</a>
+  <header id="header">
+    <nav class="navbar navbar-expand-md navbar-light bg-navbar" aria-label="Main navigation">
+      <div class="container">
+        <a class="navbar-brand" href="{{ '/' | relative_url }}">Pei Li <span class="text-gray">/ lab</span></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+          {% for item in site.data.navigation.main %}
+            {% assign current = false %}
+            {% if page.url == item.url or page.section == item.section %}{% assign current = true %}{% endif %}
+            {% if page.collection == 'portfolio' and item.section == 'research' %}{% assign current = true %}{% endif %}
+            <li class="nav-item"><a class="nav-link{% if current %} active{% endif %}" href="{{ item.url | relative_url }}"{% if current %} aria-current="page"{% endif %}>{{ item.title }}</a></li>
+          {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main class="container site-main" id="main">{{ content }}</main>
+  <footer class="container" id="footer">
+    <div class="footer-line smallnote">
+      <div>Pei Li research group · University of Wyoming</div>
+      <div><a href="{{ '/team/pei-li/' | relative_url }}">About Pei Li</a> · <a href="mailto:pei.li@uwyo.edu">Contact</a> · <a href="{{ '/services/' | relative_url }}">Service</a> · <a href="{{ '/site/' | relative_url }}">Site credits</a></div>
     </div>
-
-    {% include scripts.html %}
-
-  </body>
+  </footer>
+</body>
 </html>

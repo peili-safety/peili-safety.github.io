@@ -1,19 +1,16 @@
 ---
-layout: archive
+layout: default
 permalink: /year-archive/
-title: "Blog posts"
-author_profile: true
+title: Blog
+section: blog
 redirect_from:
   - /wordpress/blog-posts/
+  - /blog/
 ---
-
-{% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
+<h1 class="title">Blog</h1>
+<p class="smallhead section-intro mt-3">Research notes and technical tutorials. For group announcements, see <a href="{{ '/news/' | relative_url }}">News</a>.</p>
+<div class="row">
 {% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
+<article class="col-md-6 col-lg-4 mb-5"><h2 class="smallhead"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2><p class="smallnote text-gray">{{ post.date | date: '%B %-d, %Y' }}</p><div class="note">{{ post.excerpt | strip_html | truncatewords: 40 }}</div></article>
 {% endfor %}
+</div>

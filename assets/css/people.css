@@ -1,0 +1,45 @@
+/* People page: shared visual language with the research section. */
+#main.people-page { max-width: 1100px; padding-left: 1rem; padding-right: 1rem; color: #343c42; }
+.people-page h1, .people-page h2, .people-page h3 { color: #193849; }
+.people-page h1 { font-size: 1.6rem; margin: 0 0 1.4rem; padding-bottom: .65rem; border-bottom: 3px solid #17647c; }
+.people-page h2 { font-size: 1.3rem; line-height: 1.35; margin: 0 0 1rem; }
+.people-page p, .people-page li { line-height: 1.65; }
+.people-page a { color: #145e79; text-decoration: underline; text-underline-offset: 3px; }
+.people-page a:hover { color: #0b3544; }
+.people-page a:focus-visible { outline: 3px solid #17647c; outline-offset: 4px; border-radius: 2px; }
+.people-intro { margin-bottom: 2.5rem; }
+.people-intro > p { max-width: 48rem; }
+.people-page .people-eyebrow { font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: #49636e; margin: 0 0 .6rem; }
+.people-intro h2 { font-size: 1.7rem; margin-bottom: .8rem; }
+.people-jump { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; font-size: .8rem; font-weight: 600; }
+.people-page section, #lab-director { scroll-margin-top: 5rem; }
+.people-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem; }
+.person-card { display: grid; grid-template-columns: 120px minmax(0, 1fr); align-items: start; gap: 1.1rem; border: 1px solid #dbe3e7; border-radius: 8px; padding: 1.25rem; min-width: 0; }
+.person-photo { display: block; width: 120px; height: 150px; object-fit: cover; object-position: center top; border-radius: 5px; margin: 0; }
+.person-placeholder { background: #eef3f5; color: #49636e; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .4rem; font-size: .58rem; text-align: center; }
+.person-initials { font-size: 2rem; font-weight: 600; letter-spacing: .04em; }
+.person-info { min-width: 0; }
+.person-card h3 { font-size: 1.15rem; margin: 0 0 .3rem; }
+.person-card .person-role { font-size: .78rem; color: #53646e; margin: 0 0 1rem; }
+.person-interests { font-size: .8rem; margin-bottom: 1rem; }
+.person-email { font-size: .8rem; overflow-wrap: anywhere; }
+.people-page .person-links { display: flex; flex-wrap: wrap; gap: .4rem 1rem; list-style: none; padding: 0; margin: .5rem 0 0; font-size: .75rem; }
+.people-join { margin: 2.5rem 0; padding: 1.5rem; border-left: 3px solid #17647c; background: #f4f7f8; }
+.people-join p { font-size: .85rem; max-width: 46rem; }
+.people-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 1rem 1.5rem; font-size: .8rem; }
+.people-page a.people-button { display: inline-block; padding: .7rem 1rem; border-radius: 4px; background: #17647c; color: #fff; text-decoration: none; font-weight: 600; }
+.people-page a.people-button:hover { background: #0b3544; }
+.people-awards { padding-top: .5rem; }
+.people-awards p, .people-awards li { font-size: .82rem; }
+.people-awards ul { padding-left: 1.2rem; }
+.people-awards li { margin-bottom: .8rem; }
+@media (max-width: 900px) {
+  .people-grid { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 480px) {
+  .person-card { grid-template-columns: 90px minmax(0, 1fr); padding: 1rem; gap: .8rem; }
+  .person-photo { width: 90px; height: 115px; }
+  .person-placeholder { font-size: .5rem; }
+  .person-card h3 { font-size: 1.05rem; }
+  .people-join { padding: 1.1rem; }
+}

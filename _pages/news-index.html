@@ -1,0 +1,18 @@
+---
+layout: default
+title: News index
+permalink: /news/archive/
+section: news
+news_view: index
+---
+<h1 class="title">News</h1>
+{% include news-views.html %}
+<div class="row news-index">
+{% for item in site.data.news %}
+  {% assign fallback_url = '/news/#' | append: item.id %}
+  <article class="col-md-6 col-lg-4 postbox">
+    <h2 class="smallhead"><a class="off" href="{{ item.url | default: fallback_url | relative_url }}">{{ item.title }}</a></h2>
+    <p class="smallnote news-date"><time datetime="{{ item.date }}">{{ item.date | append: '-01' | date: '%B %Y' }}</time></p>
+  </article>
+{% endfor %}
+</div>

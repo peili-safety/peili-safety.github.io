@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% assign paper = site.data.publications | where: 'slug', page.paper_id | first %}
+<article class="paper-detail">
+  <header class="paper-heading">
+    {% if paper.figure %}<a href="#paper-figure" class="paper-heading-figure"><img src="{{ paper.figure | relative_url }}" alt="{{ paper.figure_alt | escape }}" width="120" height="120"></a>{% endif %}
+    <div><h1 class="title">{{ paper.title }}</h1><div class="smallhead paper-full-citation">{{ paper.authors | markdownify }}{{ paper.venue | markdownify }}</div></div>
+  </header>
+  <div class="row">
+    <aside class="col-lg-3 paper-resources order-2 order-lg-1" aria-label="Paper resources">
+      {% if paper.pdf_url %}<h2 class="smallhead">PDF</h2><p class="note"><i class="fa-regular fa-file-pdf fa-fw" aria-hidden="true"></i> <a class="off" href="{{ paper.pdf_url }}">Read the paper</a></p>{% endif %}
+      {% if paper.doi %}<h2 class="smallhead">DOI</h2><p class="note"><i class="fa-solid fa-arrow-up-right-from-square fa-fw" aria-hidden="true"></i> <a class="off" href="https://doi.org/{{ paper.doi }}">{{ paper.doi }}</a></p>{% endif %}
+      {% if paper.preprint_url %}<h2 class="smallhead">Preprint</h2><p class="note"><a class="off" href="{{ paper.preprint_url }}">View on arXiv</a></p>{% endif %}
+      {% if paper.github %}<h2 class="smallhead">Code</h2><p class="note"><i class="fa-brands fa-github fa-fw" aria-hidden="true"></i> <a class="off" href="{{ paper.github }}">GitHub repository</a></p>{% endif %}
+      <h2 class="smallhead">Publication</h2><p class="note"><a class="off" href="{{ paper.url }}">Original publication record</a></p>
+      <p class="note mt-4"><a href="{{ '/publications/' | relative_url }}#year-{{ paper.year }}">← All {{ paper.year }} papers</a></p>
+    </aside>
+    <div class="col-lg-8 offset-lg-1 post order-1 order-lg-2">
+      {% if paper.abstract %}<section aria-labelledby="abstract-heading"><h2 class="bighead" id="abstract-heading">{{ paper.abstract_heading | default: 'Abstract' }}</h2><div class="paper-abstract">{{ paper.abstract | markdownify }}</div>{% if paper.abstract_note %}<p class="smallnote">{{ paper.abstract_note }}</p>{% endif %}{% if paper.abstract_source %}<p class="smallnote"><a href="{{ paper.abstract_source }}">{{ paper.abstract_heading | default: 'Abstract' }} source</a></p>{% endif %}</section>{% else %}<section><h2 class="bighead">About this paper</h2><p>Read the abstract and full publication details at the <a href="{{ paper.url }}">original publication record</a>.</p></section>{% endif %}
+      {% if paper.figure %}<figure class="paper-overview" id="paper-figure"><a href="{{ paper.figure | relative_url }}"><img src="{{ paper.figure | relative_url }}" alt="{{ paper.figure_alt | escape }}" loading="lazy"></a>{% if paper.figure_caption %}<figcaption class="smallnote">{{ paper.figure_caption | escape }}</figcaption>{% endif %}</figure>{% endif %}
+    </div>
+  </div>
+</article>

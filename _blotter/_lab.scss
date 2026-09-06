@@ -1,0 +1,120 @@
+// Local content and responsive refinements; the base design is Blotter.
+// Open-source substitute for Blotter's account-hosted Adobe fonts.
+@each $weight in 400, 700 {
+  @each $style in normal, italic {
+    @font-face {
+      font-family: "Lato";
+      font-style: $style;
+      font-weight: $weight;
+      font-display: swap;
+      src: url("fonts/lato/lato-latin-#{$weight}-#{$style}.woff2") format("woff2");
+    }
+  }
+}
+body { color: #212529; }
+p, .note, .smallnote, .smallhead, .section-intro { font-weight: 400; }
+.smallhead p { font-weight: 400; }
+h1, h2, h3, h4, h5, h6,
+.bigtitle, .title, .bighead, .head { font-weight: 400; }
+a { text-underline-offset: .18em; }
+a:focus-visible, button:focus-visible { outline: 2px solid #b92323; outline-offset: 4px; }
+.navbar .container { min-height: 76px; }
+.navbar-brand { font-weight: 400; font-size: 28px; color: #555; }
+.navbar-brand .text-gray { color: inherit; }
+.navbar-nav { font-weight: 400; }
+.navbar-nav .nav-link { padding: .45rem .75rem; color: #555; }
+.navbar-nav .nav-link.active { background: #e7e7e7; color: #555; }
+.navbar-nav .nav-link:hover { color: $primary; }
+.site-main { min-height: 65vh; padding-top: 24px; }
+.home-intro { margin: 12px 0 46px; }
+.home-intro .bigtitle { line-height: 1.1; margin-bottom: 16px; }
+.home-intro .smallhead { max-width: 1040px; line-height: 1.5; }
+.eyebrow { color: #666; font-size: 14px; letter-spacing: .06em; margin-bottom: 16px; }
+.home-section { margin-bottom: 36px; }
+.home-section .head { margin-bottom: 22px; }
+.home-item { margin-bottom: 22px; }
+.home-item .note { font-size: 16px; line-height: 1.45; }
+.home-item .smallnote { color: #666; margin-top: 10px; line-height: 1.4; }
+.section-intro { max-width: 920px; line-height: 1.5; margin-bottom: 32px; }
+.section-links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin: 20px 0 36px; font-size: 15px; }
+.section-title { margin: 44px 0 26px; }
+.paper-year { display: flex; align-items: center; gap: 24px; margin: 40px 0 28px; font-size: 35px; line-height: 1.2; }
+.paper-year::after { content: ""; height: 1px; background: #ddd; flex: 1; }
+.paperbox { margin-bottom: 32px; min-height: 140px; }
+.paperbox .smallhead { line-height: 1.25; font-size: 19px; margin-bottom: 5px; }
+.paper-list-entry { display: flex; align-items: flex-start; gap: 14px; }
+.paper-list-text { min-width: 0; flex: 1; }
+.paper-short-citation { font-size: 14px; line-height: 1.35; }
+.paper-thumbnail { display: block; flex: 0 0 100px; }
+.paper-thumbnail img { width: 100px; height: 100px; object-fit: contain; }
+.paper-heading { display: flex; align-items: flex-start; gap: 16px; margin: 8px 0 36px; }
+.paper-heading > div { min-width: 0; }
+.paper-heading-figure { flex: 0 0 120px; }
+.paper-heading-figure img { width: 120px; height: 120px; object-fit: contain; }
+.paper-full-citation { line-height: 1.4; margin-top: 18px; }
+.paper-full-citation p { display: inline; margin: 0; }
+.paper-full-citation p + p::before { content: ' '; }
+.paper-resources { padding-top: 14px; overflow-wrap: anywhere; }
+.paper-resources h2 { margin-bottom: 8px; }
+.paper-resources p { margin-bottom: 26px; line-height: 1.45; }
+.paper-detail .post h2 { margin-top: 0; margin-bottom: 16px; }
+.paper-abstract { line-height: 1.6; overflow-wrap: anywhere; }
+.paper-overview { margin-top: 38px; scroll-margin-top: 24px; }
+.paper-overview img { max-height: 500px; width: auto; }
+.paper-overview figcaption { color: #555; line-height: 1.5; margin-top: 14px; }
+.paperbox p { margin-bottom: .4rem; }
+.theme-entry { margin-bottom: 32px; }
+.theme-entry .smallhead { line-height: 1.45; }
+.theme-entry p { font-size: 15px; line-height: 1.6; }
+.project-entry { margin-bottom: 38px; }
+.project-entry .smallhead { margin-bottom: 12px; line-height: 1.4; }
+.project-entry .project-meta { color: #666; margin-bottom: 14px; }
+.project-entry p { font-size: 15px; }
+.project-detail .post > h2:first-child { margin-top: 0; }
+.sponsor-logo { display: flex; min-height: 85px; align-items: center; margin-top: 20px; }
+.sponsor-logo img { max-height: 80px; object-fit: contain; }
+.memberbox { gap: 22px; margin-bottom: 40px; }
+.member-photo { width: 150px; height: 180px; flex: 0 0 150px; object-fit: cover; object-position: center top; }
+.member-placeholder { background: #f1f1f1; color: #666; display:flex; flex-direction:column; justify-content:center; align-items:center; font-size: 11px; }
+.member-placeholder .initials { font-size: 42px; font-weight: 300; margin-bottom: 8px; }
+.memberbox .media-body { min-width: 0; }
+.memberbox .head { margin-bottom: 10px; }
+.memberbox a { overflow-wrap: anywhere; }
+.member-role { color: #666; margin-bottom: 16px; }
+.member-links { display: flex; flex-wrap: wrap; gap: 6px 16px; }
+.reading-column { max-width: 850px; }
+.post, .page-content { font-size: 16px; line-height: 1.7; overflow-wrap: break-word; }
+.post h2, .page-content h2 { margin-top: 32px; }
+.post img, .page-content img { height: auto; }
+.post iframe { max-width: 100%; }
+.news-views { margin: 24px 0 40px; }
+.news-views .nav-link { color: #555; }
+.news-views .nav-link:hover { color: $primary; }
+.news-entry { margin-bottom: 48px; scroll-margin-top: 24px; }
+.news-entry .title { margin-bottom: 12px; }
+.news-entry .news-date { margin-bottom: 20px; }
+.news-index .postbox { margin-bottom: 28px; }
+.news-index .smallhead { line-height: 1.45; }
+.news-date { color: #666; }
+#footer { height: auto; padding-top: 30px; padding-bottom: 36px; margin-top: 30px; color: #666; }
+#footer .footer-line { border-top: 1px solid #e7e7e7; padding-top: 22px; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 14px; }
+#footer a { color: inherit; }
+@media (max-width: 767.98px) {
+ .paper-heading { display: flow-root; }
+ .paper-heading-figure { float: left; margin: 0 14px 8px 0; }
+ .paper-heading-figure img { width: 85px; height: 85px; }
+ .paper-heading .title { font-size: 27px; line-height: 1.25; }
+ .paper-full-citation { clear: both; font-size: 16px; }
+ .paper-resources { margin-bottom: 24px; }
+ .navbar .container { min-height: 65px; }
+ .navbar-nav { font-size: 24px; padding-bottom: 16px; }
+ .site-main { padding-top: 12px; }
+ .bigtitle { font-size: 42px; line-height: 1.15; }
+ .home-intro { margin-bottom: 32px; }
+ .home-intro .smallhead { font-size: 18px; }
+ .home-section { margin-bottom: 22px; }
+ .member-photo { width: 105px; height: 135px; flex-basis: 105px; }
+ .memberbox { gap: 18px; }
+ .memberbox .head { font-size: 23px; }
+ .title { font-size: 32px; }
+}

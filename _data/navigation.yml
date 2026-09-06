@@ -1,16 +1,16 @@
-# main links links
 main:
-  - title: "Publications"
+  - title: news
+    url: /news/
+    section: news
+  - title: papers
     url: /publications/
-    
-  - title: "Research"
+    section: papers
+  - title: research
     url: /portfolio/
-
-  - title: "Lab"
+    section: research
+  - title: team
     url: /lab/
-
-  - title: "Blog Posts"
+    section: team
+  - title: blog
     url: /year-archive/
-    
-  - title: "Services"
-    url: /services/
+    section: blog

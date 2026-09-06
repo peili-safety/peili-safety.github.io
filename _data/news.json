@@ -1,0 +1,70 @@
+[
+  {
+    "date": "2026-09",
+    "body": "Our paper, [Real-time lane-level abnormal traffic detection on freeways using sparse telematics data](https://doi.org/10.1016/j.aap.2026.108607), is published in *Accident Analysis & Prevention*.",
+    "title": "Sparse telematics for lane-level abnormal traffic detection",
+    "id": "news-2026-09-1",
+    "url": "/papers/2026-real-time-lane-level-abnormal-traffic-detection-on-freeways-using-sparse-telematics-data/"
+  },
+  {
+    "date": "2026-08",
+    "body": "Awarded the **Roger Wilmot Memorial Fund Travel Grant**, administered by UW E-RIDE, to support planned participation in **TRB 2027**, with a focus on multimodal AI, vehicle telematics, and research partnerships for rural transportation safety. [Details](/lab/#funding-and-awards).",
+    "title": "Roger Wilmot travel grant for TRB 2027",
+    "id": "news-2026-08-2"
+  },
+  {
+    "date": "2026-08",
+    "body": "The **Wisconsin Highway Delay Causation Study (2025–2026)**, supported by WisDOT, is complete. The study examines recurring and nonrecurring highway delay and contributing factors across Wisconsin. [Final report](https://wisconsindot.gov/documents2/research/0092-25-22-final-report.pdf).",
+    "title": "Wisconsin highway delay study completed",
+    "id": "news-2026-08-3",
+    "url": "/projects/wisconsin-highway-delay/"
+  },
+  {
+    "date": "2026-07",
+    "body": "I was selected as a **2026–2027 UW Data Science Faculty Fellow** to develop vehicle-telematics methods for real-time roadway monitoring and proactive safety management on Wyoming highways, supported by the UW Data Science Center. [Details](/lab/#funding-and-awards).",
+    "title": "UW Data Science Faculty Fellowship",
+    "id": "news-2026-07-4"
+  },
+  {
+    "date": "2026-06",
+    "body": "Awarded a **Wyoming NASA EPSCoR Faculty Research Award** to develop lightweight vision-language models for interpreting roadway weather from camera imagery, with natural-language explanations and evaluation on edge devices. [Details](/lab/#funding-and-awards).",
+    "title": "NASA EPSCoR award for roadway weather AI",
+    "id": "news-2026-06-5"
+  },
+  {
+    "date": "2026-05",
+    "body": "**SCOUT-WY** received support through the UW CEPS Engineering Initiative seed grant program for 2026–2027 to link vehicle observations across sparse roadside cameras and support travel-time estimation, traffic monitoring, and anomaly detection on rural Wyoming corridors. [Details](/lab/#funding-and-awards).",
+    "title": "SCOUT-WY receives seed funding",
+    "id": "news-2026-05-6"
+  },
+  {
+    "date": "2026-05",
+    "body": "New preprint: [Behavior-Grounded Lane Representation Learning for Multi-Task Traffic Digital Twins](https://arxiv.org/abs/2605.01901), introducing GeoLaneRep for behavior-aware traffic digital twins.",
+    "title": "GeoLaneRep preprint",
+    "id": "news-2026-05-7"
+  },
+  {
+    "date": "2026-05",
+    "body": "We will present our work, [CrashSight](https://drivex-workshop.github.io/cvpr2026/static/pdf/27_CrashSight_A_Phase_Aware_In.pdf), at the DriveX Workshop at CVPR 2026.",
+    "title": "CrashSight at the CVPR DriveX Workshop",
+    "id": "news-2026-05-8"
+  },
+  {
+    "date": "2026-04",
+    "body": "Our proposed **Wyoming Center for Artificial Intelligence in Transportation (WyCAIT)** received support from the UW Science Institute for 2026–2027 to advance multimodal sensing, resilient AI, and corridor digital twins for rural transportation safety, operations, and workforce development. [Details](/lab/#funding-and-awards).",
+    "title": "Support for the proposed WyCAIT center",
+    "id": "news-2026-04-9"
+  },
+  {
+    "date": "2026-04",
+    "body": "New preprint: [An Agentic Workflow for Detecting Personally Identifiable Information in Crash Narratives](https://arxiv.org/abs/2604.15369), presenting a locally deployable workflow for privacy-sensitive crash data processing.",
+    "title": "Agentic privacy workflow preprint",
+    "id": "news-2026-04-10"
+  },
+  {
+    "date": "2026-04",
+    "body": "New preprint: [V2X-QA](https://arxiv.org/abs/2604.02710), a dataset and benchmark for multimodal large language models in autonomous driving across ego, infrastructure, and cooperative views.",
+    "title": "V2X-QA preprint",
+    "id": "news-2026-04-11"
+  }
+]

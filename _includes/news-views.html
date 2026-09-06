@@ -1,0 +1,10 @@
+<nav class="news-views" aria-label="News views">
+  <ul class="nav nav-pills justify-content-center note">
+    <li class="nav-item">
+      <a class="nav-link{% if page.news_view == 'timeline' %} active{% endif %}" href="{{ '/news/' | relative_url }}"{% if page.news_view == 'timeline' %} aria-current="page"{% endif %}><i class="fa-solid fa-arrows-rotate fa-fw" aria-hidden="true"></i> Timeline</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link{% if page.news_view == 'index' %} active{% endif %}" href="{{ '/news/archive/' | relative_url }}"{% if page.news_view == 'index' %} aria-current="page"{% endif %}><i class="fa-solid fa-list-ul fa-fw" aria-hidden="true"></i> Index</a>
+    </li>
+  </ul>
+</nav>

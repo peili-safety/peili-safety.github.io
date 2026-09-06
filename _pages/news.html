@@ -1,0 +1,22 @@
+---
+layout: default
+title: News
+permalink: /news/
+section: news
+news_view: timeline
+---
+<h1 class="title" id="news-top">News</h1>
+{% include news-views.html %}
+<div class="row">
+<div class="col-lg-10 offset-lg-1 news-timeline">
+{% for item in site.data.news %}
+  {% assign fallback_url = '/news/#' | append: item.id %}
+  <article class="news-entry" id="{{ item.id }}" aria-labelledby="{{ item.id }}-title">
+    <h2 class="title" id="{{ item.id }}-title"><a class="off" href="{{ item.url | default: fallback_url | relative_url }}">{{ item.title }}</a></h2>
+    <p class="smallhead news-date"><time datetime="{{ item.date }}">{{ item.date | append: '-01' | date: '%B %Y' }}</time></p>
+    <div class="post">{{ item.body | markdownify }}</div>
+  </article>
+{% endfor %}
+</div>
+</div>
+<p class="text-center note"><a class="off" href="#news-top"><i class="fa-solid fa-chevron-up fa-fw" aria-hidden="true"></i> Back to top</a></p>

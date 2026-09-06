@@ -1,0 +1,10 @@
+{% assign theme = site.data.research.themes | where: 'id', page.research_theme | first %}
+<p class="note"><a href="{{ '/portfolio/' | relative_url }}">← All research themes</a></p>
+<p class="smallhead my-4">{{ theme.question }}</p>
+<p>{{ theme.description }}</p>
+<h2 class="head">Research directions</h2>
+<ul>{% for direction in theme.directions %}<li>{{ direction }}</li>{% endfor %}</ul>
+<h2 class="head">Selected work</h2>
+{% for work in theme.works %}<div class="mb-4"><a href="{{ work.url }}">{{ work.title }}</a><div class="smallnote mt-2 text-gray">{{ work.venue }}</div></div>{% endfor %}
+<p><a href="{{ '/publications/' | relative_url }}">All papers and full citations →</a></p>
+<p><a href="{{ '/portfolio/#research-projects' | relative_url }}">Projects and research support →</a></p>

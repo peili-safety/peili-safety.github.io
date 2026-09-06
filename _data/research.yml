@@ -1,0 +1,107 @@
+themes:
+  - id: safety
+    number: "01"
+    title: Transportation Safety and Spatiotemporal Learning
+    short_title: Safety and spatiotemporal learning
+    url: /portfolio/portfolio-2/
+    question: What can incomplete observations tell us about traffic states and safety risks?
+    description: We develop statistical and machine learning methods to detect abnormal traffic, forecast evolving risks, and understand interactions among road users. Our emphasis is on sparse observations, transfer across locations, and uncertainty in the available evidence.
+    directions:
+      - Detecting lane-level traffic anomalies from sparse vehicle telematics.
+      - Modeling the emergence and evolution of crash hotspots across space and time.
+      - Evaluating risk estimates under changing traffic conditions and sensing coverage.
+    works:
+      - title: Real-time lane-level abnormal traffic detection on freeways using sparse telematics data
+        venue: Accident Analysis & Prevention · 2026
+        url: https://doi.org/10.1016/j.aap.2026.108607
+      - title: "Forecasting the Emergence and Evolution of Crash Hotspots: A Unified Deep Learning Framework for Proactive Traffic Safety"
+        venue: Preprint · 2026
+        url: https://arxiv.org/abs/2607.24168
+      - title: A Probabilistic Framework for Estimating the Risk of Pedestrian-Vehicle Conflicts at Intersections
+        venue: IEEE Transactions on Intelligent Transportation Systems · 2023
+        url: https://doi.org/10.1109/TITS.2023.3296567
+  - id: multimodal
+    number: "02"
+    title: Multimodal AI and Transportation Reasoning
+    short_title: Multimodal AI and reasoning
+    url: /portfolio/multimodal-ai/
+    question: How can AI reason about traffic scenes using evidence from different perspectives?
+    description: We study how vision-language models interpret roadway video, connect vehicle and infrastructure views, and reason about dynamic events. We build benchmarks and learning methods to evaluate what models observe, infer, and generalize in transportation settings.
+    directions:
+      - Benchmarking visual understanding, temporal reasoning, and crash-scene interpretation.
+      - Learning from vehicle, infrastructure, and cooperative views with multimodal models.
+      - Developing compact models for roadside deployment and local workflows for crash narratives.
+    works:
+      - title: "CrashSight: A Phase-Aware, Infrastructure-Centric Video Benchmark for Traffic Crash Scene Understanding and Reasoning"
+        venue: CVPR Workshops · 2026
+        url: https://openaccess.thecvf.com/content/CVPR2026W/DriveX/html/Gan_CrashSight_A_Phase-Aware_Infrastructure-Centric_Video_Benchmark_for_Traffic_Crash_Scene_CVPRW_2026_paper.html
+      - title: "V2X-QA: A Comprehensive Reasoning Dataset and Benchmark for Multimodal Large Language Models in Autonomous Driving Across Ego, Infrastructure, and Cooperative Views"
+        venue: Preprint · 2026
+        url: https://arxiv.org/abs/2604.02710
+      - title: An Agentic Workflow for Detecting Personally Identifiable Information in Crash Narratives
+        venue: Preprint · 2026
+        url: https://arxiv.org/abs/2604.15369
+  - id: twins
+    number: "03"
+    title: Digital Twins and Cooperative Mobility
+    short_title: Digital twins and cooperative mobility
+    url: /portfolio/portfolio-3/
+    question: How can observations and models form useful, transferable representations of transportation systems?
+    description: We connect roadway sensing, learned representations, and simulation to develop transportation digital twins. Our work examines lane geometry and behavior, physical–virtual integration, and when cooperation between vehicles and infrastructure is useful.
+    directions:
+      - Learning lane geometry and functional representations that transfer across scenes.
+      - Integrating roadside observations and connected-vehicle data with simulation.
+      - Assessing cooperative perception needs and studying human–AI interactions in shared environments.
+    works:
+      - title: "Geo-ORBIT: A Federated Digital Twin Framework for Scene-Adaptive Lane Geometry Detection"
+        venue: Preprint · 2025
+        url: https://arxiv.org/abs/2507.08743
+      - title: Behavior-Grounded Lane Representation Learning for Multi-Task Traffic Digital Twins
+        venue: Preprint · 2026
+        url: https://arxiv.org/abs/2605.01901
+      - title: A Digital Twin Framework for Physical-Virtual Integration in V2X-Enabled Connected Vehicle Corridors
+        venue: IEEE Transactions on Intelligent Transportation Systems · 2025
+        url: https://doi.org/10.1109/TITS.2025.3564351
+      - title: Real-time identification of cooperative perception necessity in road traffic scenarios
+        venue: Transportation Research Part C · 2026
+        url: https://doi.org/10.1016/j.trc.2026.105547
+projects:
+  - title: Roadway Weather Understanding at the Edge
+    period: 2026–2027
+    status: Funded research
+    sponsor: Wyoming NASA EPSCoR Faculty Research Award
+    sponsor_url: https://wyomingspacegrant.org/nasaepscor/
+    sponsor_logo: /images/sponsors/wyoming-nasa-epscor.png
+    sponsor_logo_alt: Wyoming NASA EPSCoR
+    sponsor_logo_width: 160
+    description: Developing lightweight vision-language models to interpret precipitation, visibility, and road surface conditions from roadside cameras. Planned outputs include a weather visual question-answering dataset and evaluation on edge computing platforms.
+  - title: "SCOUT-WY: Sparse-Camera Observation and Tracking"
+    period: 2026–2027
+    status: Funded research
+    sponsor: UW CEPS Engineering Initiative seed grant program
+    sponsor_url: https://www.uwyo.edu/ceps/
+    sponsor_logo: /images/sponsors/uwyo-ceps.png
+    sponsor_logo_alt: University of Wyoming College of Engineering and Physical Sciences
+    sponsor_logo_width: 120
+    description: Linking vehicle observations across sparse roadside cameras through vehicle re-identification and transportation-aware spatiotemporal reasoning, with the aim of supporting travel-time estimation and anomaly detection in rural corridors.
+  - title: Wyoming Center for Artificial Intelligence in Transportation (WyCAIT)
+    period: 2026–2027
+    status: Supported center proposal
+    sponsor: University of Wyoming Science Institute
+    sponsor_url: https://www.uwyo.edu/research/si/index.html
+    sponsor_logo: /images/sponsors/university-of-wyoming.png
+    sponsor_logo_alt: University of Wyoming
+    sponsor_logo_width: 200
+    description: The proposed center focuses on multimodal sensing, AI under sparse data and limited connectivity, and corridor-scale digital twins for rural transportation safety, operations, and workforce development.
+  - title: Wisconsin Highway Delay Causation Study
+    id: wisconsin-highway-delay
+    url: /projects/wisconsin-highway-delay/
+    period: 2025–2026
+    status: Completed study
+    sponsor: Wisconsin Department of Transportation
+    sponsor_url: https://wisconsindot.gov/
+    sponsor_logo: /images/sponsors/wisdot.png
+    sponsor_logo_alt: Wisconsin Department of Transportation
+    sponsor_logo_width: 72
+    description: Integrated travel-time, traffic, crash, incident, lane-closure, and weather data to measure recurring and nonrecurring highway delay and examine associated contributing factors.
+    report: https://wisconsindot.gov/documents2/research/0092-25-22-final-report.pdf
