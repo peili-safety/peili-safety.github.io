@@ -40,7 +40,4 @@ News
 - 4/2026: New preprint: [V2X-QA](https://arxiv.org/abs/2604.02710), a dataset and benchmark for multimodal large language models in autonomous driving across ego, infrastructure, and cooperative views.
 
 
-
-
-
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=K6BZH5UjZhUNb3GovbJmBXk2OEmeuOHBxo9_4xHdTAQ&cl=ffffff&w=200"></script>
+<script type='text/javascript' id='mapmyvisitors' src='https://mapmyvisitors.com/map.js?cl=ffffff&w=295&t=tt&d=QXheeunQA2QUd47t5ZcRPNrcPKg7n0oXbuCjnxnl3nA'></script>
