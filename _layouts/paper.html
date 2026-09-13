@@ -9,7 +9,7 @@ layout: default
   </header>
   <div class="row">
     <aside class="col-lg-3 paper-resources order-2 order-lg-1" aria-label="Paper resources">
-      {% if paper.pdf_url %}<h2 class="smallhead">PDF</h2><p class="note"><i class="fa-regular fa-file-pdf fa-fw" aria-hidden="true"></i> <a class="off" href="{{ paper.pdf_url }}">Read the paper</a></p>{% endif %}
+      {% if paper.pdf_url %}<h2 class="smallhead">PDF</h2><p class="note"><i class="fa-regular fa-file-pdf fa-fw" aria-hidden="true"></i> <a class="off" href="{{ paper.pdf_url }}">{{ paper.pdf_label | default: 'Read the paper' }}</a></p>{% endif %}
       {% if paper.doi %}<h2 class="smallhead">DOI</h2><p class="note"><i class="fa-solid fa-arrow-up-right-from-square fa-fw" aria-hidden="true"></i> <a class="off" href="https://doi.org/{{ paper.doi }}">{{ paper.doi }}</a></p>{% endif %}
       {% if paper.preprint_url %}<h2 class="smallhead">Preprint</h2><p class="note"><a class="off" href="{{ paper.preprint_url }}">View on arXiv</a></p>{% endif %}
       {% if paper.github %}<h2 class="smallhead">Code</h2><p class="note"><i class="fa-brands fa-github fa-fw" aria-hidden="true"></i> <a class="off" href="{{ paper.github }}">GitHub repository</a></p>{% endif %}

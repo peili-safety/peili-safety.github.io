@@ -1,6 +1,13 @@
 [
   {
     "date": "2026-09",
+    "title": "SEAL published in Accident Analysis & Prevention",
+    "body": "Our paper, [SEAL](/papers/2025-seal-vision-language-model-based-safe-end-to-end-cooperative-autonomous-driving-with-adaptive-long-tail-modeling/), is published in *Accident Analysis & Prevention*. SEAL develops a vision-language framework for safe cooperative autonomous driving under challenging long-tail scenarios. [Published article](https://doi.org/10.1016/j.aap.2026.108748).",
+    "id": "news-2026-09-seal",
+    "url": "/papers/2025-seal-vision-language-model-based-safe-end-to-end-cooperative-autonomous-driving-with-adaptive-long-tail-modeling/"
+  },
+  {
+    "date": "2026-09",
     "body": "Our paper, [Real-time lane-level abnormal traffic detection on freeways using sparse telematics data](https://doi.org/10.1016/j.aap.2026.108607), is published in *Accident Analysis & Prevention*.",
     "title": "Sparse telematics for lane-level abnormal traffic detection",
     "id": "news-2026-09-1",
