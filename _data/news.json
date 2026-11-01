@@ -1,5 +1,12 @@
 [
   {
+    "date": "2026-10",
+    "title": "Wyoming road and freight corridor safety project selected for SS4A award",
+    "body": "I'm pleased to share that our proposal, [Advancing Data-Driven Safety Action Planning for Wyoming Roads and Freight Corridors](/projects/wyoming-ss4a-safety-planning/), has been selected for an award through USDOT's FY 2026 **Safe Streets and Roads for All (SS4A)** program. Our team will bring together crowdsourced telematics, crash, roadway, and weather data, along with stakeholder input, to identify high-risk corridors and help prioritize safety improvements across Wyoming. [USDOT award announcement](https://www.transportation.gov/grants/ss4a/2026-awards).",
+    "id": "news-2026-10-ss4a",
+    "url": "/projects/wyoming-ss4a-safety-planning/"
+  },
+  {
     "date": "2026-09",
     "title": "SEAL published in Accident Analysis & Prevention",
     "body": "Our paper, [SEAL](/papers/2025-seal-vision-language-model-based-safe-end-to-end-cooperative-autonomous-driving-with-adaptive-long-tail-modeling/), is published in *Accident Analysis & Prevention*. SEAL develops a vision-language framework for safe cooperative autonomous driving under challenging long-tail scenarios. [Published article](https://doi.org/10.1016/j.aap.2026.108748).",

@@ -32,7 +32,7 @@ redirect_from:
     {% if project.url %}<p><a href="{{ project.url | relative_url }}">Project details →</a></p>{% endif %}
     <p><a href="{{ project.sponsor_url }}">{{ project.sponsor }}</a></p>
     {% if project.report %}<p><a href="{{ project.report }}">Read the final report (PDF) →</a></p>{% endif %}
-    <a class="sponsor-logo" href="{{ project.sponsor_url }}"><img src="{{ project.sponsor_logo | relative_url }}" alt="{{ project.sponsor_logo_alt }}" width="{{ project.sponsor_logo_width }}" loading="lazy"></a>
+    {% if project.sponsor_logo %}<a class="sponsor-logo" href="{{ project.sponsor_url }}"><img src="{{ project.sponsor_logo | relative_url }}" alt="{{ project.sponsor_logo_alt }}" width="{{ project.sponsor_logo_width }}" loading="lazy"></a>{% endif %}
   </article>
 {% endfor %}
 </div>

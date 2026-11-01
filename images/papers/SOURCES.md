@@ -73,3 +73,7 @@ Figures are from the corresponding publications or the authors’ local manuscri
 - **Prediction of Pedestrian Crossing Intentions at Intersections Based on Long Short-Term Memory Recurrent Neural Network** — Publication figure. [Source](https://www.researchgate.net/publication/340064956_Prediction_of_Pedestrian_Crossing_Intentions_at_Intersections_Based_on_Long_Short-Term_Memory_Recurrent_Neural_Network). Figure 1. Spatial map of the studied site (30).
 
 - **Real-time crash risk prediction on arterials based on LSTM-CNN** — Publication figure. [Source](https://www.researchgate.net/publication/337548957_Real-time_crash_risk_prediction_on_arterials_based_on_LSTM-CNN). Fig. 2. Layout of Selected Segments.
+
+- **LAST-V2X: Language-Driven Adaptive Scenario Synthesis and Testing for Communication-Induced Failures in V2X Safety Applications** — Preprint figure, cropped from PDF page 3. [Source](https://arxiv.org/pdf/2610.30979). Figure 1. Overview of the LAST-V2X testing framework (preprint version).
+
+- **Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study with WisDOT WisTMP System** — Preprint figure, cropped from PDF page 4. [Source](https://arxiv.org/pdf/2610.10650). Figure 1. Overview of the LLM-assisted transportation management plan preparation framework (preprint version).
